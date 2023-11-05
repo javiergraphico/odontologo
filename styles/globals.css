@@ -1,0 +1,26 @@
+:root{
+  --color-primario: #99FFE4;
+  --color-secundario: #E5FFF8;
+  --color-gris: #464646; 
+  --color-verde: #3AFFCB;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  color: var(--color-gris);
+}
+@media screen and (min-width: 568px) {
+  .contenedor{
+    padding: 0 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contenedor{
+    padding: 0 5rem;
+  }
+}
