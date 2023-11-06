@@ -11,15 +11,35 @@
   padding: 0;
   box-sizing: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 h1, h2, h3, h4, h5, h6{
   color: var(--color-gris);
 }
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: inherit;
+}
 @media screen and (min-width: 568px) {
+  .contenedor{
+    padding: 0 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
   .contenedor{
     padding: 0 2rem;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 968px) {
   .contenedor{
     padding: 0 5rem;
   }
