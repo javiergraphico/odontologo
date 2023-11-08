@@ -21,10 +21,10 @@ const Amable = () => {
               <br />
               <strong>GRATUITA</strong> en tu primera visita
             </h3>
-            <Boton 
-              children="Pedir Cita" 
-              href={href}
-              />
+            <Boton href={href}>
+              {"Solicitar Cita"}
+            </Boton>
+              
           </div>
           <picture className={styles.conten_imagen}>
             <Image className={styles.imagen_amable} src={imagenPaciente} alt="doctor" width={400} height={250} />

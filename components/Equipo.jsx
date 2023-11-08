@@ -68,10 +68,9 @@ const Equipo = () => {
 
         </div>
         <div className={styles.conten_btn}>
-          <Boton>
-            children="CONTÁCTANOS"
-            href={href}
-          </Boton>
+        <Boton href={href}>
+          {"Solicitar Cita"}
+        </Boton>
             
         </div>
       </div>

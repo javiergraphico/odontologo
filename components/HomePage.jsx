@@ -22,9 +22,8 @@ const HomePage = () => {
                 es nuestra prioridad
             </h1>
             <p className={styles.parrafo}>Lorem Ipsum There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor. If you are going to use text.</p>
-            <Boton>
-              children="CONTÁCTANOS"
-              href={href}
+            <Boton href={href}>
+              {"CONTÁTANOS"}
             </Boton> 
             {/* <div className={styles.container_btn}>
               <Link className={styles.btn_home} href="/">CONTÁTANOS</Link>
