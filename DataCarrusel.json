@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "path": "/carrusel01.webp",
+    "title": "Implantes Dentales",
+    "description": "Ipsum There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by injected humour."
+  },
+  {
+    "id": 2,
+    "path": "/carrusel02.webp",
+    "title": "Ortodoncia",
+    "description": "Ipsum There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by injected humour."
+  },
+  {
+    "id": 3,
+    "path": "/carrusel03.webp",
+    "title": "Estética Dental",
+    "description": "Ipsum There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by injected humour."
+  },
+  {
+    "id": 4,
+    "path": "/carrusel04.webp",
+    "title": "Periodoncia",
+    "description": "Ipsum There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by injected humour."
+  },
+  {
+    "id": 5,
+    "path": "/carrusel01.webp",
+    "title": "Odontopedriatria",
+    "description": "Ipsum There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by injected humour."
+  },
+  {
+    "id": 6,
+    "path": "/carrusel02.webp",
+    "title": "Odontología General",
+    "description": "Ipsum There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by injected humour."
+  },
+  {
+    "id": 7,
+    "path": "/carrusel03.webp",
+    "title": "Implantes Dentales",
+    "description": "Ipsum There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by injected humour."
+  },
+  {
+    "id": 8,
+    "path": "/carrusel04.webp",
+    "title": "Ortodoncia",
+    "description": "Ipsum There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form, by injected humour."
+  }
+]

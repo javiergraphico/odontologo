@@ -3,6 +3,7 @@
   --color-secundario: #E5FFF8;
   --color-gris: #464646; 
   --color-verde: #3AFFCB;
+  --swiper-theme-color: #464646 !important;
 }
 
 
@@ -28,6 +29,11 @@ button{
   background: none;
   border: none;
   font: inherit;
+}
+@media screen and (max-width: 567px) {
+  .contenedor{
+    padding: 0 1rem;
+  }
 }
 @media screen and (min-width: 568px) {
   .contenedor{

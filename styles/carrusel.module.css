@@ -1,0 +1,53 @@
+.carrusel{
+  background-image: url('/Bg_Desktop.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+.card{
+  background-color: var(--color-verde);
+  border-radius: 25px;
+  overflow: hidden;
+}
+.imagen{
+  width: 100%;
+  height: 100%;
+}
+.body{
+  background-color: var(--color-verde);
+  padding: 0 2rem;
+  text-align: center;
+}
+.title{
+  padding-top: 1rem;
+}
+.parrafo{
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper .swiper-pagination{
+  background-color: var(--color-verde);
+}

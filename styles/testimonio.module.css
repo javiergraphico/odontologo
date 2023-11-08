@@ -1,0 +1,29 @@
+.testimonio{
+  padding-bottom: 4rem;
+}
+.conten_text{
+  padding: 0 1rem;
+}
+.title_h2{
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+.card{
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid var(--color-verde);
+  overflow: hidden;
+  padding: 2rem;
+}
+.imagen{
+  width: 60%;
+  height: auto;
+}
+.title_h3{
+  padding-top: 1rem;
+  padding-bottom: 24px;
+}
+.text_p{
+  padding-bottom: 1rem;
+}
+

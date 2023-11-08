@@ -1,0 +1,16 @@
+
+
+.conten_carrusel{
+  padding: 0 1rem !important;
+}
+.conten_testimonio{
+  padding: 0 1rem !important;
+}
+@media (max-width: 968px) {
+  .conten_carrusel{
+    padding: 0;
+  }
+  .conten_testimonio{
+    padding: 0;
+  }
+}

@@ -29,9 +29,9 @@ export const Footer = () => {
             <h3 className={styles.footer_h3}>Sobre</h3>
             <nav className={styles.nav}>
               <Link className={styles.enlace} href={"/"}>Inicio</Link>
-              <Link className={styles.enlace} href={"/"}>Nosotros</Link>
-              <Link className={styles.enlace} href={"/"}>Tratamientos</Link>
-              <Link className={styles.enlace} href={"/"}>Contactos</Link>
+              <Link className={styles.enlace} href={"/nosotros"}>Nosotros</Link>
+              <Link className={styles.enlace} href={"/tratamiento"}>Tratamientos</Link>
+              <Link className={styles.enlace} href={"/contacto"}>Contactos</Link>
               <Link className={styles.enlace} href={"/"}>Pedir Cita</Link>
             </nav>
           </div>

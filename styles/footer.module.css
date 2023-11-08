@@ -1,6 +1,7 @@
 .footer{
   background-color: var(--color-verde);
-  padding: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 .grid{
   display: grid;
@@ -49,6 +50,10 @@
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
+  .footer{
+    
+    padding: 2rem 0;
+  }
   .grid{
     grid-template-columns: 1fr 1fr;
   }

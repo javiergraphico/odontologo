@@ -1,0 +1,88 @@
+.equipo{
+  background-image: url('/Bg_mobil.webp');
+  background-repeat: no-repeat;
+  padding-bottom: 4rem;
+}
+.conten_text{
+  padding: 0 1rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+}
+.card{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.imagen{
+  width: 100%;
+  height: 100%;
+}
+.conten_info{ 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -100%;
+  right: 0;
+  background:rgba(0, 0, 0, .4);
+  transition: 2s;
+  border-radius: 25px;
+}
+.card:hover .conten_info{
+  top: 0;
+}
+.equipo_h3{
+  color: white;
+  padding-top: 130px;
+  padding-bottom: .5rem;
+  padding-left: 30px;
+}
+.equipo_p{
+  color: white;
+  padding-bottom: .5rem;
+  padding-left: 30px;
+}
+.redes{
+  display: flex;
+  color: white;
+  font-size: 24px;
+  gap: .5rem;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.conten_btn{
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+@media screen and (min-width: 668px) {
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+@media screen and (min-width: 1068px) {
+  .equipo{
+    background-image: url('/Bg_Desktop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .equipo_h2{
+    padding-top: 80px;
+    padding-bottom: 24px;
+  }
+  .equipo_parrafo{
+    padding-bottom: 24px;
+  }
+  
+}
