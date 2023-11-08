@@ -68,10 +68,11 @@ const Equipo = () => {
 
         </div>
         <div className={styles.conten_btn}>
-          <Boton
+          <Boton>
             children="CONTÁCTANOS"
             href={href}
-          />
+          </Boton>
+            
         </div>
       </div>
       
