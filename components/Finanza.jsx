@@ -14,10 +14,7 @@ const Finanza = () => {
           title="Por qué elegir nuestra clínica dental"
           text="Dedicados a ofrecer una aplicación odontológica de alta calidad en odontología estándar, restauradora y general."
         />
-        {/* <div className={styles.container_text}>
-          <h2 className={styles.title_h2}>Por qué elegir nuestra clínica dental</h2>
-          <p className={styles.parrafo}>Dedicados a ofrecer una atención odontológica de calidad en odontología estética, restauradora y general.</p>
-        </div> */}
+        
         <div className={styles.grid}>
 {/* tarjeta 01 */}
           <div className={styles.card_content}>
