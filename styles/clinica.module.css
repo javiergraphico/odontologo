@@ -1,4 +1,5 @@
 .clinica{
+  background-color: white;
   padding-bottom: 4rem;
 }
 
@@ -19,7 +20,6 @@
 }
 @media screen and (min-width: 668px) {
   .clinica{
-    background-image: url('/Bg_desktop_Clinica.webp');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 48px;

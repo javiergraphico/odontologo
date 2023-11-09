@@ -1,1 +1,28 @@
-
+.container{
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-image: url('/dentista_perspectiva.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--color-primario);
+  background-blend-mode: multiply;
+}
+.title{
+  text-align: center;
+  font-size: 3rem;
+}
+.volver{
+  display: inline-block;
+  background-color: #99FFE4;
+  padding: 0.9375rem 1.5rem;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #464646;
+  cursor: pointer;
+  transition: 2s ease;
+  text-align: center;
+}

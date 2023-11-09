@@ -1,5 +1,5 @@
 .acerca{
-  background-image: url('/Bg_amable.webp');
+  background-image: linear-gradient(to right, #E5FFF8, #5CFFD3);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2rem 0;
@@ -35,7 +35,6 @@
 }
 @media screen and (min-width: 968px) {
   .amable{
-    background-image: url('/Bg_desktop_amable.webp');
     padding: 8rem 0;
   }
   .acerca_h2{

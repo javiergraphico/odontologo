@@ -1,0 +1,59 @@
+.container_text{
+  background-image: url('/dentista_perspectiva.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 28.125rem;
+  background-color: var(--color-primario);
+  background-blend-mode: multiply;
+  display: grid;
+  place-content: center;
+}
+.title{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.conten_text{
+  padding: 4rem 0;
+}
+.title_h3{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.parrafo{
+  padding-bottom: 16px;
+}
+.conten_formulario{
+  padding-bottom: 4rem;
+}
+.conten_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+.info_title{
+  font-size: 24px;
+  padding: .5rem 0;
+}
+.info_icon{
+  font-size: 32px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+  .conten_text{
+    padding-right: 2rem;
+  }
+  .conten_formulario{
+    padding: 4rem 0;
+  }
+}

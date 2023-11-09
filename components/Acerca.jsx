@@ -1,7 +1,9 @@
+"use client"
 import React from 'react'
 import styles from '../styles/acerca.module.css'
 import Image from 'next/image'
 import imagenNosotros from '../public/nosotrosImg.webp'
+import { motion } from 'framer-motion'
 
 const Acerca = () => {
   return (
@@ -16,9 +18,13 @@ const Acerca = () => {
             <p className={styles.acerca_p}>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Distribution of letters, as opposed to using will uncover many web sites still in their infancy.</p>
             
           </div>
-          <picture className={styles.conten_imagen}>
+          <motion.picture 
+            initial={{ opacity: 0, scale: 0.5 }} 
+            whileInView={{ opacity: 1, scale: 1 }} 
+            viewport={{ once: true }} 
+            className={styles.conten_imagen}>
             <Image className={styles.imagen_amable} src={imagenNosotros} alt="doctor" width={400} height={250} />
-          </picture>
+          </motion.picture>
         </div>
       </div>
     </section>

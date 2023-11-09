@@ -30,4 +30,7 @@
   .grid{
     grid-template-columns: 1fr 1fr;
   }
+  .conten_text{
+    padding-right: 2rem;
+  }
 }

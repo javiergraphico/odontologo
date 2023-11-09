@@ -1,12 +1,15 @@
 import React from 'react'
 import styles from '../styles/titulo.module.css'
-
+import Reveal from './Reveal'
 const Titulo = ({title, text}) => {
+
   return (
-    <div className={styles.conten_text}>
-      <h2 className={styles.title_h2}>{title}</h2>
-      <p className={styles.text_p}>{text}</p>
-    </div>
+    <Reveal>
+      <div className={styles.conten_text}>
+        <h2 className={styles.title_h2}>{title}</h2>
+        <p className={styles.text_p}>{text}</p>
+      </div>
+    </Reveal>
   )
 }
 

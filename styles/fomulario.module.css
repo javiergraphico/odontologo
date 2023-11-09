@@ -1,0 +1,45 @@
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+.conten{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+}
+.conten > label {
+  font-size: 16px;
+  color: var(--color-gris);
+  margin-bottom: 5px;
+}
+.conten > input {
+	border-radius: 5px;
+	border: 2px solid var(--color-verde);
+	font-size: 16px;
+	padding: 10px;
+	color: var(--color-gris);
+  
+}
+.conten > textarea {
+  display: block;
+	border-radius: 5px;
+  padding: 10px;
+	border: 2px solid var(--color-verde);
+	font-size: 16px;
+	color: var(--color-gris);
+  max-height: 200px;
+  resize: none;
+}
+.btn{
+  background-color: var(--color-primario);
+  color: var(--color-gris);
+  border: 2px solid var(--color-verde);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}

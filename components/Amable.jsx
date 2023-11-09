@@ -3,6 +3,7 @@ import styles from '../styles/amable.module.css'
 import Image from 'next/image'
 import imagenPaciente from '../public/paciente_01.webp'
 import Boton from './Boton'
+import { motion } from 'framer-motion'
 
 const Amable = () => {
 
@@ -26,9 +27,13 @@ const Amable = () => {
             </Boton>
               
           </div>
-          <picture className={styles.conten_imagen}>
+          <motion.picture 
+            initial={{ opacity: 0, scale: 0.5 }} 
+            whileInView={{ opacity: 1, scale: 1 }} 
+            viewport={{ once: true }} 
+            className={styles.conten_imagen}>
             <Image className={styles.imagen_amable} src={imagenPaciente} alt="doctor" width={400} height={250} />
-          </picture>
+          </motion.picture>
         </div>
       </div>
     </section>
