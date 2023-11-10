@@ -1,5 +1,6 @@
 .conten_text{
   overflow: hidden;
+  max-width: 600px;
 }
 .title_h2{
   padding-top: 48px;

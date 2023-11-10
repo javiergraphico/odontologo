@@ -6,6 +6,7 @@
   background-position: rotate (80deg);
   padding-bottom: 4rem;
   overflow: hidden;
+  width: 100%;
 }
 .grid{
   display: grid;
@@ -31,6 +32,15 @@
   color: var(--color-gris);
 }
 @media screen and (min-width: 768px) {
+  .finanza{
+    background-image: url('/Bg_Desktop.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: rotate (80deg);
+    padding-bottom: 4rem;
+    overflow: hidden;
+  }
   
   .grid{
     grid-template-columns: 1fr 1fr;
@@ -44,4 +54,5 @@
   }
   
 }
+
 

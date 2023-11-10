@@ -43,7 +43,7 @@ button{
   border: none;
   font: inherit;
 }
-@media screen and (min-width: 367px) {
+@media screen and (max-width: 566px) {
   .contenedor{
     padding: 0 1rem;
   }

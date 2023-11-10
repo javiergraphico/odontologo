@@ -31,7 +31,7 @@ const HomePage = () => {
               variants={item} initial="hidden" animate="enter" exit="exit" transition={{ duration: 0.5 }} 
               className={styles.parrafo}>Lorem Ipsum There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor. If you are going to use text.</motion.p>
             <Boton href={href}>
-              {"CONTÁTANOS"}
+              {"Contáctanos"}
             </Boton> 
           </div>
           <div className={styles.container_imagen}>

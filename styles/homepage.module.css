@@ -5,11 +5,10 @@
   overflow: hidden;
 }
 .container_text{
-  padding: 1rem;
+  padding: 1rem 0;
 }
 .title{
   padding-top: 5.5rem;
-  /* font-size: 2rem; */
 }
 .parrafo{
   width: 100%;
@@ -41,11 +40,14 @@
 .imagen_desktop{
   display: none;
 }
-
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 568px) {
   .homepage{
     background-image: url('/Bg_Desktop.webp');
   }
+}
+
+@media screen and (min-width: 968px) {
+  
   .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -57,8 +59,7 @@
     flex-direction: column;
   }
   .title{
-    /* font-size: 3rem; */
-    padding-top: 0px;
+    padding-top: 0;
     font-weight: 900;
   }
   .parrafo{
@@ -82,11 +83,5 @@
     width: 100%;
     height: auto;
     object-fit: contain;
-  }
-}
-@media screen and (min-width: 1068px) {
-  .homepage{
-    background-image: url('/Bg_Desktop.webp');
-    
   }
 }
