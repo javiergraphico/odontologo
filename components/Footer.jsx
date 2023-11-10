@@ -44,12 +44,12 @@ export const Footer = () => {
               <Link className={styles.footer_enlace} href={"/aviso-legar"}>Aviso Legal</Link>
             </nav>
             <div className={styles.conten_redes}>
-              <Link className={styles.footer_social}  href={`https://www.linkedin.com/in/javier-tovar-46687a177/`} target='_blank'>
+              <a className={styles.footer_social}  href={`https://www.linkedin.com/in/javier-tovar-46687a177/`} target='_blank'>
                 <BsInstagram  />
-              </Link>
-              <Link className={styles.footer_social} href={`https://www.linkedin.com/in/javier-tovar-46687a177/`} target='_blank'>
+              </a>
+              <a className={styles.footer_social} href={`https://twitter.com/Javiergraphico`} target='_blank'>
                 <BsFacebook  />
-              </Link>
+              </a>
             </div>
           </div>
         </div>
