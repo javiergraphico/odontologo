@@ -7,7 +7,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsWhatsapp } from 'react-icons/bs'
 
 export const metadata = {
-  title: "Contacto - Cliínica Dental",
+  title: "Contacto - Clínica Dental",
   description:
     "Dedicados a ofrecer una aplicación odontológica de alta calidad en odontología estándar, restauradora y general.",
 };
