@@ -6,6 +6,12 @@ import { AiOutlinePhone } from 'react-icons/ai'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsWhatsapp } from 'react-icons/bs'
 
+export const metadata = {
+  title: "Contacto - Cliínica Dental",
+  description:
+    "Dedicados a ofrecer una aplicación odontológica de alta calidad en odontología estándar, restauradora y general.",
+};
+
 
 const Contacto = () => {
   return (
