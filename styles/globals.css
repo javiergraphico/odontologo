@@ -14,9 +14,22 @@
 }
 html{
   scroll-behavior: smooth;
+  ::-webkit-scrollbar { width: .5rem; height: .5rem; }
+  ::-webkit-scrollbar-button { background: #ccc }
+  ::-webkit-scrollbar-track-piece { background: #888 }
+  ::-webkit-scrollbar-thumb { background: #fff }
 }
 h1, h2, h3, h4, h5, h6{
   color: var(--color-gris);
+}
+h1{
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+h2{
+  font-size: clamp(24px, 5vw, 34px);
+}
+h3{
+  font-size: clamp(1.125rem, 5vw, 1.5rem);
 }
 a{
   text-decoration: none;

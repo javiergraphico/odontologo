@@ -15,7 +15,7 @@ const Finanza = () => {
           text="Dedicados a ofrecer una aplicación odontológica de alta calidad en odontología estándar, restauradora y general."
         />
         
-        <div className={styles.grid}>
+        <article className={styles.grid}>
 {/* tarjeta 01 */}
           <div className={styles.card_content}>
             <div className={styles.icon}>
@@ -47,7 +47,7 @@ const Finanza = () => {
             <p>Lorem Ipsum There are many es sencillo con nuestros planes de dinanciación sin intereses.</p>
           </div>
 
-        </div>
+        </article>
       </div>
     </section>
   )

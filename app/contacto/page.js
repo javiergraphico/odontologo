@@ -12,7 +12,7 @@ const Contacto = () => {
     <>
       <section>
         <div className={styles.container_text}>
-          <h1 className={styles.title}>Contactanos</h1>
+          <h2 className={styles.title}>Contactanos</h2>
         </div>
         <div className='contenedor'>
           <div className={styles.grid}>

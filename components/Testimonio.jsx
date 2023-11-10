@@ -62,7 +62,7 @@ const Testimonio = () => {
                 priority
                 />
                 <div className={styles.body}>
-                  <h3 className={styles.title_h3}>{result.title}</h3>
+                  <h4 className={styles.title_h3}>{result.title}</h4>
                   <p className={styles.parrafo}>{result.description}</p>
                 </div>
               </div>

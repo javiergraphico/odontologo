@@ -5,10 +5,10 @@ const Titulo = ({title, text}) => {
 
   return (
     <Reveal>
-      <div className={styles.conten_text}>
+      <article className={styles.conten_text}>
         <h2 className={styles.title_h2}>{title}</h2>
         <p className={styles.text_p}>{text}</p>
-      </div>
+      </article>
     </Reveal>
   )
 }

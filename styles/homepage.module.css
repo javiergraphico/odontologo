@@ -9,7 +9,7 @@
 }
 .title{
   padding-top: 5.5rem;
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 .parrafo{
   width: 100%;
@@ -57,7 +57,7 @@
     flex-direction: column;
   }
   .title{
-    font-size: 3rem;
+    /* font-size: 3rem; */
     padding-top: 0px;
     font-weight: 900;
   }

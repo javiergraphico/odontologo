@@ -10,6 +10,13 @@
 .conten_text{
   padding-bottom: 2rem;
 }
+.conten_p{
+  color: var(--color-gris);
+  padding-bottom: 1rem;
+}
+.conten_h{
+  color: var(--color-gris);
+}
 .nav{
   display: flex;
   flex-direction: column;
