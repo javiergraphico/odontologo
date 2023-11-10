@@ -40,7 +40,7 @@ const HomePage = () => {
               className={styles.imagen_desktop} 
               src={characterDesktop} 
               alt="Odontologo" 
-              width={600} height={600} 
+              width={661} height={595} 
               priority 
               layout="responsive"
               objectFit="cover"
