@@ -32,7 +32,7 @@ const Amable = () => {
             whileInView={{ opacity: 1, scale: 1 }} 
             viewport={{ once: true }} 
             className={styles.conten_imagen}>
-            <Image className={styles.imagen_amable} src={imagenPaciente} alt="doctor" width={400} height={250} />
+            <Image className={styles.imagen_amable} src={imagenPaciente} alt="doctor" width={380} height={257} />
           </motion.picture>
         </div>
       </div>
