@@ -36,7 +36,15 @@ const HomePage = () => {
           </div>
           <div className={styles.container_imagen}>
             <Image className={styles.imagen} src={character} alt="doctor" width={400} height={400} priority />
-            <Image className={styles.imagen_desktop} src={characterDesktop} alt="doctor" width={600} height={600} priority />
+            <Image 
+              className={styles.imagen_desktop} 
+              src={characterDesktop} 
+              alt="Odontologo" 
+              width={600} height={600} 
+              priority 
+              layout="responsive"
+              objectFit="cover"
+              />
           </div>
         </div>
       </div>
