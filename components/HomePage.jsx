@@ -35,7 +35,7 @@ const HomePage = () => {
             </Boton> 
           </div>
           <div className={styles.container_imagen}>
-            <Image className={styles.imagen} src={character} alt="doctor" width={400} height={400} priority />
+            <Image className={styles.imagen} src={character} alt="doctor" width={300} height={300} priority />
             <Image 
               className={styles.imagen_desktop} 
               src={characterDesktop} 

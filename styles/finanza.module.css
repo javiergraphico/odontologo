@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: rotate (80deg);
   padding-bottom: 4rem;
-  
+  overflow: hidden;
 }
 .grid{
   display: grid;
