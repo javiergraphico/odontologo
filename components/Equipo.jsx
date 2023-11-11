@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/equipo.module.css'
 import Image from 'next/image'
 import Titulo from './Titulo'
+import Link from 'next/link'
 import { BiLogoTwitter } from 'react-icons/bi'
 import { BiLogoFacebookSquare } from 'react-icons/bi'
 import { BiLogoLinkedinSquare } from 'react-icons/bi'
@@ -30,9 +31,15 @@ const Equipo = () => {
               <h3 className={styles.equipo_h3}>Sadi Suárez Lara</h3>
               <p className={styles.equipo_p}>General y odontopediatra</p>
               <div className={styles.redes}>
-                <BiLogoTwitter />
-                <BiLogoFacebookSquare />
-                <BiLogoLinkedinSquare />
+              <Link className={styles.redes_icons} href="https://www.behance.net/javiergraphico" target="_blank" rel="noopener noreferrer">
+                  <BiLogoTwitter />
+                </Link>
+                <Link className={styles.redes_icons} href="https://www.behance.net/javiergraphico" target="_blank" rel="noopener noreferrer">
+                  <BiLogoFacebookSquare />
+                </Link>
+                <Link className={styles.redes_icons} href="https://www.linkedin.com/in/javier-tovar-46687a177/" target="_blank" rel="noopener noreferrer">
+                  <BiLogoLinkedinSquare />
+                </Link>
               </div>
             </div>
 
@@ -44,9 +51,15 @@ const Equipo = () => {
               <h3 className={styles.equipo_h3}>Jose Miralles</h3>
               <p className={styles.equipo_p}>Cirujano, PSI, Estética Dental</p>
               <div className={styles.redes}>
-                <BiLogoTwitter />
-                <BiLogoFacebookSquare />
-                <BiLogoLinkedinSquare />
+              <Link className={styles.redes_icons} href="https://www.behance.net/javiergraphico" target="_blank" rel="noopener noreferrer">
+                  <BiLogoTwitter />
+                </Link>
+                <Link className={styles.redes_icons} href="https://www.behance.net/javiergraphico" target="_blank" rel="noopener noreferrer">
+                  <BiLogoFacebookSquare />
+                </Link>
+                <Link className={styles.redes_icons} href="https://www.linkedin.com/in/javier-tovar-46687a177/" target="_blank" rel="noopener noreferrer">
+                  <BiLogoLinkedinSquare />
+                </Link>
               </div>
             </div>
 
@@ -58,9 +71,15 @@ const Equipo = () => {
               <h3 className={styles.equipo_h3}>Paola Pedraza</h3>
               <p className={styles.equipo_p}>Ortodoncista</p>
               <div className={styles.redes}>
-                <BiLogoTwitter />
-                <BiLogoFacebookSquare />
-                <BiLogoLinkedinSquare />
+                <Link className={styles.redes_icons} href="https://www.behance.net/javiergraphico" target="_blank" rel="noopener noreferrer">
+                  <BiLogoTwitter />
+                </Link>
+                <Link className={styles.redes_icons} href="https://www.behance.net/javiergraphico" target="_blank" rel="noopener noreferrer">
+                  <BiLogoFacebookSquare />
+                </Link>
+                <Link className={styles.redes_icons} href="https://www.linkedin.com/in/javier-tovar-46687a177/" target="_blank" rel="noopener noreferrer">
+                  <BiLogoLinkedinSquare />
+                </Link>
               </div>
             </div>
 

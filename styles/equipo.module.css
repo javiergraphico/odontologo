@@ -49,11 +49,17 @@
 }
 .redes{
   display: flex;
-  color: white;
+  
   font-size: 24px;
   gap: .5rem;
   padding-left: 30px;
   cursor: pointer;
+}
+.redes_icons{
+  color: white;
+}
+.redes_icons:hover{
+  color: var(--color-verde);
 }
 .conten_btn{
   display: flex;
